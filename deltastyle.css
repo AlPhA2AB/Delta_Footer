@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.deltafooterContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.deltasocialIcons{
+    display: flex;
+    justify-content: center;
+}
+.deltasocialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.deltasocialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.deltasocialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.deltasocialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.deltafooterNav{
+    margin: 30px 0;
+}
+.deltafooterNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.deltafooterNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.deltafooterNav ul li a:hover{
+    opacity: 1;
+}
+.deltafooterBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.deltafooterBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .deltafooterNav ul{
+        flex-direction: column;
+    } 
+    .deltafooterNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .deltasocialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
